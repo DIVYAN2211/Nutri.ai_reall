@@ -53,7 +53,12 @@ set_background(st.session_state['page'])
 import os
 
 image_path = os.path.join("assets", "image.png")
-st.sidebar.image(image_path, width=75)
+
+if os.path.exists(image_path):
+    st.sidebar.image(image_path, width=75)
+else:
+    st.sidebar.warning("Image not found.")
+
 st.sidebar.title("Consistency!!!")
 
 # Routing scaffold

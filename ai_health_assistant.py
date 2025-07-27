@@ -5,8 +5,7 @@ import re
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-GROQ_API_KEY = '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'
-
+GROQ_API_KEY = "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"
 def groq_health_answer(question):
     # Check if API key is available
     if not GROQ_API_KEY or GROQ_API_KEY == "your_groq_api_key_here":

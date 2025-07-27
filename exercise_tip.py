@@ -4,7 +4,7 @@ import requests
 import datetime
 import plotly.graph_objects as go
 
-GROQ_API_KEY = os.getenv('GROQ_API_KEY')
+GROQ_API_KEY ="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"
 YOUTUBE_API_KEY = "AIzaSyCeH61WIIL85tMA5PrpeNKgIneHt5BA15o"
 
 # Helper: Get workout videos using YouTube API

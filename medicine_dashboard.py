@@ -9,7 +9,7 @@ import json
 from collections import Counter
 from datetime import timedelta, date
 
-GROQ_API_KEY = os.getenv('GROQ_API_KEY')
+GROQ_API_KEY ="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"
 
 # --- LLM Helper ---
 def get_medicine_info_llm(medicine, dosage=None, frequency=None, duration=None):

@@ -3,7 +3,7 @@ import os
 import requests
 import pandas as pd
 
-GROQ_API_KEY = os.getenv('GROQ_API_KEY')
+GROQ_API_KEY = "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"
 
 # Helper: Use GROQ Llama3 to simulate/augment hospital search
 def groq_find_hospitals(location):

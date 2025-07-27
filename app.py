@@ -50,7 +50,10 @@ set_background(st.session_state['page'])
 
 # Sidebar branding and user info
 # You can change the logo by replacing this URL with your preferred image
-st.sidebar.image(r"D:\nutri\assets\image.png", width=75)
+import os
+
+image_path = os.path.join("assets", "image.png")
+st.sidebar.image(image_path, width=75)
 st.sidebar.title("Consistency!!!")
 
 # Routing scaffold

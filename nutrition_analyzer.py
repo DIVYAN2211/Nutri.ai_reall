@@ -194,7 +194,8 @@ def nutrition_analyzer_page(username):
         if uploaded:
             image_bytes = uploaded.read()
             mime_type = uploaded.type or f"image/{mimetypes.guess_type(uploaded.name)[0] or 'jpeg'}"
-            st.image(image_bytes, caption="Uploaded Meal", use_column_width=True)
+            st.image(image_bytes, caption="Uploaded Meal", use_container_width=True)
+
             
             # Use BLIP for image recognition first
             with st.spinner("Analyzing image with BLIP..."):

@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import base64
 import mimetypes
 
-GROQ_API_KEY = os.getenv('GROQ_API_KEY')
+GROQ_API_KEY = "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"
 
 from PIL import Image
 from io import BytesIO

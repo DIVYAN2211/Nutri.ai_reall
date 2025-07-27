@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 # from fpdf import FPDF  # No longer needed
 import io
 
-GROQ_API_KEY = os.getenv('GROQ_API_KEY')
+GROQ_API_KEY ="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"
 
 # Helper: Use GROQ Llama3 to generate a meal plan
 def groq_generate_meal_plan(profile, period='daily'):

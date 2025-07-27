@@ -3,8 +3,7 @@ import os
 import requests
 import plotly.graph_objects as go
 
-GROQ_API_KEY = os.getenv('GROQ_API_KEY')
-
+GROQ_API_KEY = "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"
 # Helper: Use GROQ Llama3 to analyze a meal
 
 def groq_analyze_meal(meal_desc):
